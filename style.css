@@ -1,2 +1,82 @@
 /* #fafafa */ 
 
+/** index page **//
+
+* {
+    box-sizing: border-box;
+    font-family:  "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
+    "Liberation Sans", sans-serif, "Apple Color Emoji", 
+     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+.spacer {
+    padding-top: 5rem; 
+    padding-bottom: 7rem;
+
+
+}
+
+
+.hero {
+    text-align: center;
+    font-family:  "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
+    "Liberation Sans", sans-serif, "Apple Color Emoji", 
+     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+}
+
+.heroBanner {
+    text-align: center;
+    font-family:  "Segoe UI", "Helvetica Neue", Arial, "Noto Sans",
+     "Liberation Sans", sans-serif, "Apple Color Emoji", 
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color:rgb(7, 86, 204);
+    letter-spacing: .5px;
+    font-size: 2.5rem;
+    font-weight: 9;
+
+
+}
+
+.intro {
+
+    Margin-bottom: 1rem;
+    padding-bottom: 4.5rem;
+
+
+}
+
+
+/** eventually I want this to bounce slightly **/
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.archivesButton {
+  
+
+    border-radius: .2em;
+    box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: .2px;
+    cursor: pointer;
+    background-color:rgb(47, 122, 234);
+    color: white;
+    padding: 1rem 1.5rem;
+
+
+
+
+}
+
+.bio {
+
+}
+
+.skillsGrid {
+
+};
