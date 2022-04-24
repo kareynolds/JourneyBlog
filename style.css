@@ -9,13 +9,20 @@
      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+body {
+    margin: 0px;
+}
+
 
 .spacer {
     padding-top: 5rem; 
-    padding-bottom: 7rem;
+    padding-bottom: 7rem; 
+    background-color: #fafafa;
 
 
 }
+
+
 
 
 .hero {
@@ -71,6 +78,15 @@
 
 
 
+}
+
+.container {
+
+    text-align: center;
+    max-width: 600px;
+    margin:0 auto;
+    margin-bottom: 2rem;
+    padding-top:2rem;
 }
 
 .bio {
