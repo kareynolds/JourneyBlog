@@ -63,9 +63,11 @@ p {
 
 .icons {
     display: flex;
-    margin: 1 auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
 }
 
 .icons i {
@@ -112,9 +114,23 @@ section {
     .split > * + * {
         margin-left: 2em;
     }
+    h3 {
+        font-size: 1.2rem;
+    }
 
 }
 
+
+
+@media (max-width: 30em) {
+    a {
+        margin-top: 1em;
+        font-size: .8em;
+    }
+    h3 {
+        margin-top: 1em;
+    }
+}
 
 
 .container--narrow {
