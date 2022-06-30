@@ -102,6 +102,9 @@ section {
     flex-direction: column;
 }
 
+
+
+
 @media (min-width:40em) {
     .split {
         flex-direction: row;
@@ -118,6 +121,8 @@ section {
         font-size: 1.2rem;
     }
 
+
+
 }
 
 
@@ -130,6 +135,34 @@ section {
     h3 {
         margin-top: 1em;
     }
+
+    .split-projects {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: stretch;
+        margin: 1em;
+        padding: 1em;
+    }
+
+    .project {
+        margin: 0px;
+        padding: 0px;
+}
+    
+    .project-images-children {
+        display: block;
+        max-width: 95%;
+        
+    }
+
+    .split-projects {
+        margin: 0px; 
+        padding: 0px;
+    }
+
 }
 
 
@@ -170,4 +203,43 @@ section {
     
 }
 
+.split-projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 
+
+.project {
+    background-color: var(--clr-primary-200);
+    margin: 1.5em .25em 1.5em .25em;
+    padding: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.project:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    
+}
+
+.archives-link {
+    margin-top: 1em;
+}
+
+.project-image {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+    margin: .2em;
+    max-width: 100%;
+}
+
+.project-images-children {
+    border-radius: 5px;
+}
